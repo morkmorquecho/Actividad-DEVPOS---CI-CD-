@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const port = 3000; // Puedes cambiar el puerto si es necesario
+const port = 8081; // Puedes cambiar el puerto si es necesario
 
 // Define el directorio de los archivos estáticos
 app.use(express.static(path.join(__dirname, 'pagina web')));
